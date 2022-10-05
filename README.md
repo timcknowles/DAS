@@ -47,6 +47,10 @@ The Difficult Airway Society (DAS) maintains a nationwide standalone difficult a
 
 *  Inform the patient (see airway alert card below)
 
+## Admin dashbboard
+
+* user management
+* patient management 
 
 ## Bi-directional FHIR REST API
 
@@ -57,6 +61,7 @@ The Difficult Airway Society (DAS) maintains a nationwide standalone difficult a
 * [SNOMED Code and Concept ID 763326004 |Difficult mask ventilation (finding)](https://termbrowser.nhs.uk/?perspective=full&conceptId1=763326004&edition=uk-edition&release=v20220803&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104)
 * [SNOMED Code and Concept ID 766781004 |Difficult supraglottic airway ventilation (finding)](https://termbrowser.nhs.uk/?perspective=full&conceptId1=766781004&edition=uk-edition&release=v20220803&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104)
 * [SNOMED Code and Concept ID 718447001 |Difficult tracheal intubation (finding)](https://termbrowser.nhs.uk/?perspective=full&conceptId1=718447001&edition=uk-edition&release=v20220803&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104)
+> **_NOTE:_**  in order to aim for the lowest common denominator consider a authenicated client app which can be embedded as an html link (each hospital organisation gets a client key and can query the API for the presence of an alert.  )
 
 
 ## Airway alert 'cards'
